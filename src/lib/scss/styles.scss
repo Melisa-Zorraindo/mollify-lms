@@ -1,0 +1,100 @@
+$gutter: 1rem;
+$scheme-darkest: black;
+$scheme-darker: #222;
+$scheme-dark: #333;
+$scheme-medium: #555;
+$scheme-light: #777;
+$scheme-lighter: #999;
+$scheme-lightest: #bbb;
+$scheme-accent: rgb(255, 54, 191);
+
+@import "./highlight";
+
+body {
+  padding: 1rem;
+  background-color: $scheme-darkest;
+  color: white;
+  min-height: 100vh;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
+    'Open Sans', 'Helvetica Neue', sans-serif;
+  display: grid;
+  gap: $gutter;
+  grid-template-columns: 2rem minmax(30ch, 80ch) max-content;
+  grid-template-rows: auto 1fr auto;
+  grid-template-areas:
+    'brand heading heading'
+    '. main sidebar';
+}
+
+:is(h1, h2, h3, h4, h5, h6, p) {
+  margin: 0;
+  margin-bottom: 0.5rem;
+}
+
+:is(h1, h2, h3, h4, h5, h6) {
+  font-weight: bolder;
+}
+
+p {
+  margin: 0;
+  margin-bottom: 1rem;
+}
+
+.brand {
+  grid-area: brand;
+  position: sticky;
+  top: 1rem;
+
+  img {
+    max-width: 100%;
+  }
+}
+
+.sidebar {
+  grid-area: sidebar;
+
+  &-fixed {
+    position: sticky;
+    top: 1rem;
+  }
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+
+  a {
+    margin-bottom: 0.5rem;
+    color: white;
+    &:first-child {
+      margin: 0;
+    }
+  }
+}
+
+footer {
+  grid-area: footer;
+  padding: $gutter;
+}
+
+a {
+  color: $scheme-accent;
+  text-decoration: none;
+  transition: color 0.1s ease;
+
+  &:hover {
+    color: lighten($scheme-accent, 10%);
+    text-decoration: underline;
+  }
+}
+
+main {
+  grid-area: main;
+  padding-right: 2rem;
+}
+
+code {
+  color: $scheme-accent;
+}
