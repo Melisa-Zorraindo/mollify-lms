@@ -1,10 +1,27 @@
-<script>
+<script lang="ts">
   import "../../scss/styles.scss";
+  import LogoIcon from "../brand/LogoIcon.svelte";
+
+  function changeTheme() {
+    const body = document.querySelector("body")!;
+    const slider = document.querySelector("#slider") as HTMLInputElement;
+
+    if (slider?.checked) {
+      body.classList.add("theme-light");
+    } else {
+      body.classList.remove("theme-light");
+    }
+  }
 </script>
 
 <a href="/" class="brand">
-  <img src="/logo-icon.png" alt="Noroff Logo">
+  <LogoIcon/>
 </a>
+
+<label id="switch" class="switch">
+  <input type="checkbox" id="slider" on:input={changeTheme}>
+  <span class="slider round"></span>
+</label>
 
 <div class="sidebar">
   <h1>Development Platforms</h1>
@@ -35,7 +52,10 @@
   </div>
 </div>
 
-<!-- <h1>Test</h1> -->
 <main>
   <slot/>
 </main>
+
+<footer>
+  © {new Date().getFullYear()} Noroff Fagskole AS
+</footer>

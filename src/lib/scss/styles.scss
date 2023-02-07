@@ -1,19 +1,30 @@
 $gutter: 1rem;
-$scheme-darkest: black;
+$scheme-black: black;
 $scheme-darker: #222;
 $scheme-dark: #333;
 $scheme-medium: #555;
 $scheme-light: #777;
-$scheme-lighter: #999;
-$scheme-lightest: #bbb;
+$scheme-lighter: #afafaf;
 $scheme-accent: rgb(255, 54, 191);
+$scheme-white: white;
 
 @import "./highlight";
+@import "./switcher";
+
+%sticky-top-gutter {
+  position: sticky;
+  top: $gutter;
+}
+
+%flex-column {
+  display: flex;
+  flex-direction: column;
+}
 
 body {
-  padding: 1rem;
-  background-color: $scheme-darkest;
-  color: white;
+  padding: $gutter;
+  background-color: var(--scheme-black);
+  color: var(--scheme-white);
   min-height: 100vh;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
@@ -23,13 +34,55 @@ body {
   grid-template-columns: 2rem minmax(30ch, 80ch) max-content;
   grid-template-rows: auto 1fr auto;
   grid-template-areas:
-    'brand heading heading'
-    '. main sidebar';
+    'brand heading settings'
+    '. main sidebar'
+    'footer footer footer';
+
+  @media screen and (max-width: 55rem) {
+    grid-template-columns: 2rem minmax(30ch, 80ch) min-content;
+  }
+
+  &,
+  &.theme-dark {
+    --scheme-black: #{$scheme-black};
+    --scheme-darker: #{$scheme-darker};
+    --scheme-dark: #{$scheme-dark};
+    --scheme-medium: #{$scheme-medium};
+    --scheme-light: #{$scheme-light};
+    --scheme-lighter: #{$scheme-lighter};
+    --scheme-white: #{$scheme-white};
+    --scheme-accent: #{$scheme-accent};
+    --gutter: #{$gutter};
+  }
+
+  &.theme-light {
+    --scheme-black: #{$scheme-white};
+    --scheme-darker: #{$scheme-lighter};
+    --scheme-dark: #{$scheme-light};
+    --scheme-medium: #{$scheme-medium};
+    --scheme-light: #{$scheme-dark};
+    --scheme-lighter: #{$scheme-darker};
+    --scheme-white: #{$scheme-black};
+    --scheme-accent: #{$scheme-accent};
+    --gutter: #{$gutter};
+  }
+
+  &.theme-sepia {
+    --scheme-black: #{$scheme-black};
+    --scheme-darker: #{$scheme-darker};
+    --scheme-dark: #{$scheme-dark};
+    --scheme-medium: #{$scheme-medium};
+    --scheme-light: #{$scheme-light};
+    --scheme-lighter: #{$scheme-lighter};
+    --scheme-white: #{$scheme-white};
+    --scheme-accent: #{$scheme-accent};
+    --gutter: #{$gutter};
+  }
 }
 
 :is(h1, h2, h3, h4, h5, h6, p) {
   margin: 0;
-  margin-bottom: 0.5rem;
+  margin-bottom: calc(var(--gutter) / 2);
 }
 
 :is(h1, h2, h3, h4, h5, h6) {
@@ -38,13 +91,13 @@ body {
 
 p {
   margin: 0;
-  margin-bottom: 1rem;
+  margin-bottom: var(--gutter);
 }
 
 .brand {
   grid-area: brand;
-  position: sticky;
-  top: 1rem;
+  color: var(--scheme-white);
+  @extend %sticky-top-gutter;
 
   img {
     max-width: 100%;
@@ -55,19 +108,17 @@ p {
   grid-area: sidebar;
 
   &-fixed {
-    position: sticky;
-    top: 1rem;
+    @extend %sticky-top-gutter;
   }
 }
 
 nav {
-  display: flex;
-  flex-direction: column;
-  margin-bottom: 1rem;
+  @extend %flex-column;
+  margin-bottom: var(--gutter);
 
   a {
-    margin-bottom: 0.5rem;
-    color: white;
+    margin-bottom:  calc(var(--gutter) / 2);
+    color: var(--scheme-white);
     &:first-child {
       margin: 0;
     }
@@ -76,25 +127,25 @@ nav {
 
 footer {
   grid-area: footer;
-  padding: $gutter;
+  text-align: center;
 }
 
 a {
-  color: $scheme-accent;
+  color: var(--scheme-accent);
   text-decoration: none;
   transition: color 0.1s ease;
 
   &:hover {
-    color: lighten($scheme-accent, 10%);
+    color: var(--scheme-accent);
     text-decoration: underline;
   }
 }
 
 main {
   grid-area: main;
-  padding-right: 2rem;
+  padding-right: calc(var(--gutter) * 2);
 }
 
 code {
-  color: $scheme-accent;
+  color: var(--scheme-accent);
 }
