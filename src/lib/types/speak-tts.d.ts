@@ -4,20 +4,20 @@ declare class Speech {
 	hasBrowserSupport(): boolean;
 
 	init(options: {
-    onVoicesLoaded?: (data: {
-      voices: Array<SpeechSynthesisVoice>;
-      synthesisParams: SpeechSynthesisUtterance;
-    }) => void;
-    volume?: number;
-    lang?: SupportedRegions;
-    rate?: number;
-    pitch?: number;
-    voice?: string;
-    splitSentences?: boolean;
-    listeners?: {
-      onvoiceschanged?: (voices: Array<SpeechSynthesisVoice>) => void;
-    };
-  }): Promise<{
+		onVoicesLoaded?: (data: {
+			voices: Array<SpeechSynthesisVoice>;
+			synthesisParams: SpeechSynthesisUtterance;
+		}) => void;
+		volume?: number;
+		lang?: SupportedRegions;
+		rate?: number;
+		pitch?: number;
+		voice?: string;
+		splitSentences?: boolean;
+		listeners?: {
+			onvoiceschanged?: (voices: Array<SpeechSynthesisVoice>) => void;
+		};
+	}): Promise<{
 		voices: Array<SpeechSynthesisVoice>;
 		synthesisParams: SpeechSynthesisUtterance;
 	}>;
@@ -47,12 +47,12 @@ declare class Speech {
 	speak(options: {
 		text: string;
 		queue?: boolean;
-    volume?: number;
-    lang?: SupportedRegions;
-    rate?: number;
-    pitch?: number;
-    voice?: string;
-    splitSentences?: boolean;
+		volume?: number;
+		lang?: SupportedRegions;
+		rate?: number;
+		pitch?: number;
+		voice?: string;
+		splitSentences?: boolean;
 		listeners?: {
 			onstart?: () => void;
 			onend?: () => void;
