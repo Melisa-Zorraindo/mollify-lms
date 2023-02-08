@@ -2,10 +2,23 @@
 	import '../../scss/styles.scss';
   import LogoIcon from '../icons/LogoIcon.svelte';
 	import Reader from '../reader/Reader.svelte';
+	import MollifyTTS from '$lib/tts';
+	import { onMount } from 'svelte';
 
 	export let title = '';
 
 	let body: HTMLDivElement;
+
+	onMount(() => {
+		try {
+			const tts = new MollifyTTS(body.innerText);
+			console.log(tts);
+		} catch (error) {
+			console.log(error);
+			
+			console.log('TTS not supported');
+		}
+	});
 
 	function changeTheme() {
 		const body = document.querySelector('body')!;
