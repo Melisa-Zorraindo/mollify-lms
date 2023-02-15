@@ -2,6 +2,7 @@
 	import '../../scss/styles.scss';
 	import LogoIcon from '../icons/LogoIcon.svelte';
 	import Reader from '../reader/Reader.svelte';
+	import { page } from '$app/stores';
 
 	export let title = '';
 
@@ -42,7 +43,7 @@
 </div>
 
 {#if body}
-	{#key body.innerText}
+	{#key $page.url.pathname}
 		<Reader text={body.innerText} />
 	{/key}
 {/if}

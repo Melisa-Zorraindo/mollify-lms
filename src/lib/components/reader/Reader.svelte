@@ -4,19 +4,33 @@
 	import PauseIcon from '../icons/PauseIcon.svelte';
 	import PlayIcon from '../icons/PlayIcon.svelte';
 	import MollifyTTS from 'mollify-tts';
+	import type { MollifyTTSState } from 'mollify-tts/dist/models';
 
 	export let text = '';
 
 	const tts = browser ? new MollifyTTS(text) : null;
+
+	let state: MollifyTTSState = {
+		playing: false,
+		paused: false,
+		ended: false,
+		stopped: false,
+		head: 0,
+	};
+
+	tts?.addEventListener("statechange", (event: Event) => {
+		const { detail } = event as CustomEvent<MollifyTTSState>;
+		state = detail;
+	});
 </script>
 
 {#if tts}
 	<form class="reader" on:submit|preventDefault>
 		<button type="button" on:click={() => tts.controls.stop()}><StopIcon /></button>
-		{#if tts.state.playing}
+		{#if state.playing}
 			<button type="button" on:click={() => tts.controls.pause()}><PauseIcon /></button>
 		{:else}
-			<button disabled={tts.state.playing} type="button" on:click={() => tts.controls.start()}><PlayIcon /></button>
+			<button disabled={state.playing} type="button" on:click={() => tts.controls.start()}><PlayIcon /></button>
 		{/if}
 	</form>
 {/if}
