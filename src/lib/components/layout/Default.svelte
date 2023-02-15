@@ -1,24 +1,11 @@
 <script lang="ts">
 	import '../../scss/styles.scss';
-  import LogoIcon from '../icons/LogoIcon.svelte';
+	import LogoIcon from '../icons/LogoIcon.svelte';
 	import Reader from '../reader/Reader.svelte';
-	import MollifyTTS from '$lib/tts';
-	import { onMount } from 'svelte';
 
 	export let title = '';
 
 	let body: HTMLDivElement;
-
-	onMount(() => {
-		try {
-			const tts = new MollifyTTS(body.innerText);
-			console.log(tts);
-		} catch (error) {
-			console.log(error);
-			
-			console.log('TTS not supported');
-		}
-	});
 
 	function changeTheme() {
 		const body = document.querySelector('body')!;
@@ -42,40 +29,26 @@
 </label>
 
 <div class="sidebar">
-	<h1>Development Platforms</h1>
+	<h1>Dev Platforms</h1>
 	<div class="sidebar-fixed">
 		<nav>
-			<a href="#"><h2>Datastores</h2></a>
-			<a href="#">Relational Datastores</a>
-			<a href="#">Non-Relational Datastores</a>
-			<a href="#">Caching</a>
-			<a href="#">DBaaS</a>
-		</nav>
-
-		<nav>
-			<a href="#"><h2>Backend</h2></a>
-			<a href="#">Hosting</a>
-			<a href="#">Networking</a>
-			<a href="#">BaaS</a>
-			<a href="#">BaaS Starter</a>
-		</nav>
-
-		<nav>
-			<a href="#"><h2>Concepts</h2></a>
-			<a href="#">DevOps</a>
-			<a href="#">Security</a>
-			<a href="#">Containerization</a>
-			<a href="#">Machine Learning</a>
+			<a href="/case-studies"><h2>Case Studies</h2></a>
+			<a href="/case-studies/tensorflow">TensorFlow</a>
+			<a href="/case-studies/prometheus">Prometheus</a>
+			<a href="/case-studies/cpanel">cPanel</a>
+			<a href="/case-studies/google/platforms">Google Platforms</a>
 		</nav>
 	</div>
 </div>
 
 {#if body}
-	<Reader text={body.innerText} />
+	{#key body.innerText}
+		<Reader text={body.innerText} />
+	{/key}
 {/if}
 
 <main>
-	<h1>{title}</h1>
+	<!-- <h1>{title}</h1> -->
 
 	<div class="body" bind:this={body}>
 		<slot />
