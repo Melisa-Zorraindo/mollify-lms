@@ -1,0 +1,3 @@
+[submodule "src/routes/demo/development-platforms"]
+	path = src/routes/demo/development-platforms
+	url = https://github.com/NoroffFEU/development-platforms.git
