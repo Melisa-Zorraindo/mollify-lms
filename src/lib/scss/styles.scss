@@ -7,6 +7,7 @@ $scheme-light: #777;
 $scheme-lighter: #afafaf;
 $scheme-accent: rgb(255, 54, 191);
 $scheme-white: white;
+$scheme-brand: #ff2f02;
 
 @import "./highlight";
 @import "./switcher";
@@ -31,15 +32,16 @@ body {
     'Open Sans', 'Helvetica Neue', sans-serif;
   display: grid;
   gap: $gutter;
-  grid-template-columns: 2rem minmax(30ch, 80ch) 1fr;
-  grid-template-rows: auto 1fr auto;
+  grid-template-columns: 2rem minmax(30ch, 80ch) auto 3.75rem;
+  grid-template-rows: 2rem auto 1fr auto;
   grid-template-areas:
-    'brand heading settings'
-    '. main sidebar'
-    'footer footer footer';
+    'brand reader reader settings'
+    'brand tbc tbc tbc'
+    '. main sidebar sidebar'
+    'footer footer footer footer';
 
   @media screen and (max-width: 55rem) {
-    grid-template-columns: 2rem minmax(30ch, 80ch) min-content;
+    grid-template-columns: 2rem minmax(30ch, 80ch) min-content 3.75rem;
   }
 
   &,
@@ -52,6 +54,7 @@ body {
     --scheme-lighter: #{$scheme-lighter};
     --scheme-white: #{$scheme-white};
     --scheme-accent: #{$scheme-accent};
+    --scheme-brand: #{$scheme-brand};
     --gutter: #{$gutter};
   }
 
@@ -159,4 +162,9 @@ blockquote {
   padding-left: 0.5rem;
   margin-left: 0;
   margin-right: 0;
+}
+
+iframe {
+  max-width: 100%;
+  width: 100%;
 }
