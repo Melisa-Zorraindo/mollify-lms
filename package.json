@@ -2,10 +2,6 @@
 	"name": "mollify-lms",
 	"version": "0.0.1",
 	"private": true,
-	"bin": {
-    "mollify-lms": "./bin/mollify-lms.cjs",
-		"test": "./bin/test.js"
-  },
 	"scripts": {
 		"dev": "vite dev",
 		"build": "vite build",
@@ -29,6 +25,7 @@
 		"eslint-plugin-svelte3": "^4.0.0",
 		"mdsvex": "^0.10.6",
 		"mollify-tts": "^0.2.3",
+		"mollify-cli": "^0.1.2",
 		"prettier": "^2.8.0",
 		"prettier-plugin-svelte": "^2.8.1",
 		"prism-themes": "^1.9.0",
