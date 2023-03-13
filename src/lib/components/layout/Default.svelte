@@ -29,7 +29,7 @@
 	<span class="slider round" />
 </label>
 
-<div class="sidebar">
+<!-- <div class="sidebar">
 	<h1>Dev Platforms</h1>
 	<div class="sidebar-fixed">
 		<nav>
@@ -40,7 +40,7 @@
 			<a href="/case-studies/google/platforms">Google Platforms</a>
 		</nav>
 	</div>
-</div>
+</div> -->
 
 {#if body}
 	{#key $page.url.pathname}

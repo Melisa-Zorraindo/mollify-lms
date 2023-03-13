@@ -155,6 +155,7 @@ code {
 
 img {
   max-width: 100%;
+  display: block;
 }
 
 blockquote {
@@ -166,5 +167,9 @@ blockquote {
 
 iframe {
   max-width: 100%;
+  width: 100%;
+}
+
+table {
   width: 100%;
 }
