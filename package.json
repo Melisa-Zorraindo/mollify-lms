@@ -13,11 +13,19 @@
 		"lint": "prettier --plugin-search-dir . --check . && eslint .",
 		"format": "prettier --plugin-search-dir . --write ."
 	},
+	"bin": {
+		"mollify": "bin/index.ts"
+	},
 	"devDependencies": {
-		
+		"@types/fs-extra": "^11.0.1",
+		"@types/inquirer": "^9.0.3",
+		"commander": "^10.0.0",
+		"fs-extra": "^11.1.1",
+		"inquirer": "^9.1.5",
+		"slugify": "^1.6.5",
+		"ts-node": "^10.9.1"
 	},
 	"dependencies": {
-		"mollify-cli": "^0.1.4",
 		"@playwright/test": "^1.28.1",
 		"@sveltejs/adapter-auto": "^1.0.0",
 		"@sveltejs/kit": "^1.0.0",
@@ -28,6 +36,7 @@
 		"eslint-config-prettier": "^8.5.0",
 		"eslint-plugin-svelte3": "^4.0.0",
 		"mdsvex": "^0.10.6",
+		"mollify-cli": "^0.1.4",
 		"mollify-tts": "^0.2.3",
 		"prettier": "^2.8.0",
 		"prettier-plugin-svelte": "^2.8.1",
