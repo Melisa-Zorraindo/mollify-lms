@@ -4,7 +4,7 @@ slug: template-module
 tags:
 - template
 - module
-lessons:
+children:
 - template-lesson
 ---
 
