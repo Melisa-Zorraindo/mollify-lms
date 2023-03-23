@@ -18,17 +18,14 @@
 		"mollify": "bin/index.ts"
 	},
 	"devDependencies": {
-		"@sveltejs/adapter-static": "^2.0.1",
+		"@sveltejs/adapter-node": "^1.2.3",
 		"@types/fs-extra": "^11.0.1",
 		"@types/inquirer": "^9.0.3",
 		"commander": "^10.0.0",
 		"fs-extra": "^11.1.1",
-		"gh-pages": "^5.0.0",
 		"inquirer": "^9.1.5",
 		"slugify": "^1.6.5",
-		"ts-node": "^10.9.1"
-	},
-	"dependencies": {
+		"ts-node": "^10.9.1",
 		"@playwright/test": "^1.28.1",
 		"@sveltejs/adapter-auto": "^1.0.0",
 		"@sveltejs/kit": "^1.0.0",
