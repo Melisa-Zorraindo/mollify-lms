@@ -1,0 +1,10 @@
+{
+  "name": "template-course",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "mollify-lms start"
+  },
+  "devDependencies": {
+    "mollify-lms": "latest"
+  }
+}

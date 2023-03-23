@@ -1,23 +1,26 @@
 <script lang="ts">
 	import '../../scss/styles.scss';
 	import LogoIcon from '../icons/LogoIcon.svelte';
-	import Reader from '../reader/Reader.svelte';
+	// import Reader from '../reader/Reader.svelte';
 	import { page } from '$app/stores';
+	import Tags from '../tags/Tags.svelte';
+	import { darkMode, bodyClass } from '$lib/stores';
 
-	export let title = '';
+	export let name = '';
+	export let tags = new Array<string>();
+	export let children = new Array<string>();
 
 	let body: HTMLDivElement;
 
-	function changeTheme() {
-		const body = document.querySelector('body')!;
-		const slider = document.querySelector('#slider') as HTMLInputElement;
-
-		if (slider?.checked) {
-			body.classList.add('theme-light');
-		} else {
-			body.classList.remove('theme-light');
-		}
+	function toggleDarkMode() {
+    $darkMode = !$darkMode
 	}
+
+	$: {
+    if (typeof window !== 'undefined') {
+      document.body.className = $bodyClass;
+    }
+  }
 </script>
 
 <a href="/" class="brand">
@@ -25,31 +28,34 @@
 </a>
 
 <label id="switch" class="switch">
-	<input type="checkbox" id="slider" on:input={changeTheme} />
+	<input type="checkbox" id="slider" checked={$darkMode} on:input={toggleDarkMode} />
 	<span class="slider round" />
 </label>
-
-<!-- <div class="sidebar">
-	<h1>Dev Platforms</h1>
+<!-- 
+<div class="sidebar">
 	<div class="sidebar-fixed">
 		<nav>
-			<a href="/case-studies"><h2>Case Studies</h2></a>
-			<a href="/case-studies/tensorflow">TensorFlow</a>
-			<a href="/case-studies/prometheus">Prometheus</a>
-			<a href="/case-studies/cpanel">cPanel</a>
-			<a href="/case-studies/google/platforms">Google Platforms</a>
+			{#each children as child}
+				<a href={'./' + child} class:active={$page.url.pathname === child}>
+					<h2 class="proper-case">{child.replace("-", " ")}</h2>
+				</a>
+			{/each}
 		</nav>
 	</div>
 </div> -->
 
-{#if body}
+<!-- {#if body}
 	{#key $page.url.pathname}
 		<Reader text={body.innerText} />
 	{/key}
-{/if}
+{/if} -->
 
 <main>
-	<!-- <h1>{title}</h1> -->
+	<h1>{name}</h1>
+
+	{#if tags && tags.length}
+	<Tags {tags} />
+	{/if}
 
 	<div class="body" bind:this={body}>
 		<slot />

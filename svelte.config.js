@@ -1,4 +1,4 @@
-import adapter from '@sveltejs/adapter-auto';
+import adapter from '@sveltejs/adapter-node';
 import preprocess from 'svelte-preprocess';
 import { mdsvex } from 'mdsvex';
 import gfm from 'remark-gfm';
@@ -12,7 +12,10 @@ const config = {
 		mdsvex({
 			highlight: {},
 			extensions: ['.md'],
-			remarkPlugins: [gfm]
+			remarkPlugins: [gfm],
+			layout: {
+				_: './src/lib/components/layout/DefaultWrapper.svelte'
+			}
 		})
 	],
 
