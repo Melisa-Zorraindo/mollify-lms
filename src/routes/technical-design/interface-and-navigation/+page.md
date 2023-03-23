@@ -54,7 +54,7 @@ over time as you work with the software. It requires gradual practice.
 However, receiving a general overview in the very beginning is immensely
 helpful.
 
-![](/td/Icon_Guided_Activity.png)
+![icon](/td/Icon_Guided_Activity.png)
 
 #### Guided Activity
 
@@ -65,7 +65,7 @@ Video: TD-02-01-AutoCADInterface.mp4 
 
 <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/807419362?h=611f2d42da&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="TD-02-01-AutoCADInterface"></iframe></div>
 
-![](/td/Icon_Activity.png)
+![icon](/td/Icon_Activity.png)
 
 #### Activity
 
@@ -79,7 +79,7 @@ with mastering a new software; the true masters are often the people who
 have spent the most time practising. Remember this during your learning
 process; it will get easier over time.
 
-![](/td/Icon_Guided_Activity.png)
+![icon](/td/Icon_Guided_Activity.png)
 
 #### Guided Activity 
 
@@ -112,7 +112,7 @@ used in conjunction with a regular mouse:
 Note that a 3D mouse is not mandatory, and the video demonstrations only
 utilise a standard mouse.
 
-![](/td/Icon_Activity.png)
+![icon](/td/Icon_Activity.png)
 
 #### Activity
 
@@ -125,7 +125,7 @@ Skip this point if you want to work with a regular mouse only.
 
 When a new AutoCAD file is opened, you often need to adjust various settings to optimise the file. 
 
-![](/td/Icon_Guided_Activity.png)
+![icon](/td/Icon_Guided_Activity.png)
 
 #### Guided Activity
 
@@ -135,7 +135,7 @@ Video: TD-02-03-AutoCADSettings.mp4
 
 <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/807419332?h=fc8386f472&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="TD-02-03-AutoCADSettings"></iframe></div>
 
-![](/td/Icon_Activity.png)
+![icon](/td/Icon_Activity.png)
 
 #### Activity
 
@@ -174,7 +174,7 @@ are expected to use the template named 'Mechanical **Part** Template'.
 -   Noroff Mechanical Assembly Template Asset:
     Acad-Noroff-Mechanical-Assembly.dwt
 
-![](/td/Icon_Guided_Activity.png)
+![icon](/td/Icon_Guided_Activity.png)
 
 
 #### Guided Activity
@@ -187,7 +187,7 @@ Video: TD-02-04-AutoCADTemplates.mp4
 
 <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/807419317?h=eebdf538b5&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="TD-02-04-AutoCADTemplates"></iframe></div>
 
-![](/td/Icon_Activity.png)
+![icon](/td/Icon_Activity.png)
 
 #### Activity
 
@@ -240,13 +240,13 @@ automatically deleted when the software successfully shuts down.
 
 When submitting assignments, DWL/DWL2 and BAK must not be included.
 
-![](/td/Icon_Activity.png)
+![icon](/td/Icon_Activity.png)
 
 #### Activity
 
 Knowledge check: Summary on File types
 
-![](/td/Icon_Task.png)
+![icon](/td/Icon_Task.png)
 
 ### Daily Task
 

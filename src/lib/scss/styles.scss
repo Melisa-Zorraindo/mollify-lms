@@ -158,6 +158,15 @@ code {
 img {
   max-width: 100%;
   display: block;
+
+  &[alt=icon] {
+    max-width: 1.5rem;
+    margin-top: 1rem;
+  }
+}
+
+p:has(img[alt=icon]) {
+  margin-bottom: 0;
 }
 
 blockquote {
