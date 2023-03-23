@@ -12,7 +12,10 @@ const config = {
 		mdsvex({
 			highlight: {},
 			extensions: ['.md'],
-			remarkPlugins: [gfm]
+			remarkPlugins: [gfm],
+			layout: {
+				_: './src/lib/components/layout/DefaultWrapper.svelte'
+			}
 		})
 	],
 

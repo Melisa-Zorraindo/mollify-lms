@@ -1,10 +1,13 @@
 <script lang="ts">
 	import '../../scss/styles.scss';
 	import LogoIcon from '../icons/LogoIcon.svelte';
-	import Reader from '../reader/Reader.svelte';
+	// import Reader from '../reader/Reader.svelte';
 	import { page } from '$app/stores';
+	import Tags from '../tags/Tags.svelte';
 
-	export let title = '';
+	export let name = '';
+	export let tags = new Array<string>();
+	export let children = new Array<string>();
 
 	let body: HTMLDivElement;
 
@@ -29,27 +32,30 @@
 	<span class="slider round" />
 </label>
 
-<!-- <div class="sidebar">
-	<h1>Dev Platforms</h1>
+<div class="sidebar">
 	<div class="sidebar-fixed">
 		<nav>
-			<a href="/case-studies"><h2>Case Studies</h2></a>
-			<a href="/case-studies/tensorflow">TensorFlow</a>
-			<a href="/case-studies/prometheus">Prometheus</a>
-			<a href="/case-studies/cpanel">cPanel</a>
-			<a href="/case-studies/google/platforms">Google Platforms</a>
+			{#each children as child}
+				<a href={'./' + child} class:active={$page.url.pathname === child}>
+					<h2 class="proper-case">{child.replace("-", " ")}</h2>
+				</a>
+			{/each}
 		</nav>
 	</div>
-</div> -->
+</div>
 
-{#if body}
+<!-- {#if body}
 	{#key $page.url.pathname}
 		<Reader text={body.innerText} />
 	{/key}
-{/if}
+{/if} -->
 
 <main>
-	<!-- <h1>{title}</h1> -->
+	<h1>{name}</h1>
+
+	{#if tags && tags.length}
+	<Tags {tags} />
+	{/if}
 
 	<div class="body" bind:this={body}>
 		<slot />

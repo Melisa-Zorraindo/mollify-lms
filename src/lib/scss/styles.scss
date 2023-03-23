@@ -92,6 +92,10 @@ body {
   font-weight: bolder;
 }
 
+h1 {
+  margin: 0;
+}
+
 p {
   margin: 0;
   margin-bottom: var(--gutter);
@@ -172,4 +176,8 @@ iframe {
 
 table {
   width: 100%;
+}
+
+.proper-case {
+  text-transform: capitalize;
 }
