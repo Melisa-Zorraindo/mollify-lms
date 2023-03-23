@@ -32,19 +32,28 @@ body {
     'Open Sans', 'Helvetica Neue', sans-serif;
   display: grid;
   gap: $gutter;
-  grid-template-columns: 2rem minmax(30ch, 80ch) auto 3.75rem;
+  row-gap: 0;
+  grid-template-columns: 2rem 1fr 3.75rem;
   grid-template-rows: 2rem auto 1fr auto;
   grid-template-areas:
-    'brand reader reader settings'
-    'brand tbc tbc tbc'
-    '. main sidebar sidebar'
-    'footer footer footer footer';
-
-  @media screen and (max-width: 55rem) {
-    grid-template-columns: 2rem minmax(30ch, 80ch) min-content 3.75rem;
-  }
+    'brand reader settings'
+    'brand tbc tbc'
+    '. main main'
+    'footer footer footer';
 
   &,
+  &.theme-light {
+    --scheme-black: #{$scheme-white};
+    --scheme-darker: #{$scheme-lighter};
+    --scheme-dark: #{$scheme-light};
+    --scheme-medium: #{$scheme-medium};
+    --scheme-light: #{$scheme-dark};
+    --scheme-lighter: #{$scheme-darker};
+    --scheme-white: #{$scheme-black};
+    --scheme-accent: #{$scheme-accent};
+    --gutter: #{$gutter};
+  }
+
   &.theme-dark {
     --scheme-black: #{$scheme-black};
     --scheme-darker: #{$scheme-darker};
@@ -55,18 +64,6 @@ body {
     --scheme-white: #{$scheme-white};
     --scheme-accent: #{$scheme-accent};
     --scheme-brand: #{$scheme-brand};
-    --gutter: #{$gutter};
-  }
-
-  &.theme-light {
-    --scheme-black: #{$scheme-white};
-    --scheme-darker: #{$scheme-lighter};
-    --scheme-dark: #{$scheme-light};
-    --scheme-medium: #{$scheme-medium};
-    --scheme-light: #{$scheme-dark};
-    --scheme-lighter: #{$scheme-darker};
-    --scheme-white: #{$scheme-black};
-    --scheme-accent: #{$scheme-accent};
     --gutter: #{$gutter};
   }
 
@@ -150,7 +147,8 @@ a {
 
 main {
   grid-area: main;
-  padding-right: calc(var(--gutter) * 2);
+  max-width: 80ch;
+  margin: 0 auto;
 }
 
 code {

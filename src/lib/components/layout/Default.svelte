@@ -4,6 +4,7 @@
 	// import Reader from '../reader/Reader.svelte';
 	import { page } from '$app/stores';
 	import Tags from '../tags/Tags.svelte';
+	import { darkMode, bodyClass } from '$lib/stores';
 
 	export let name = '';
 	export let tags = new Array<string>();
@@ -11,16 +12,15 @@
 
 	let body: HTMLDivElement;
 
-	function changeTheme() {
-		const body = document.querySelector('body')!;
-		const slider = document.querySelector('#slider') as HTMLInputElement;
-
-		if (slider?.checked) {
-			body.classList.add('theme-light');
-		} else {
-			body.classList.remove('theme-light');
-		}
+	function toggleDarkMode() {
+    $darkMode = !$darkMode
 	}
+
+	$: {
+    if (typeof window !== 'undefined') {
+      document.body.className = $bodyClass;
+    }
+  }
 </script>
 
 <a href="/" class="brand">
@@ -28,10 +28,10 @@
 </a>
 
 <label id="switch" class="switch">
-	<input type="checkbox" id="slider" on:input={changeTheme} />
+	<input type="checkbox" id="slider" checked={$darkMode} on:input={toggleDarkMode} />
 	<span class="slider round" />
 </label>
-
+<!-- 
 <div class="sidebar">
 	<div class="sidebar-fixed">
 		<nav>
@@ -42,7 +42,7 @@
 			{/each}
 		</nav>
 	</div>
-</div>
+</div> -->
 
 <!-- {#if body}
 	{#key $page.url.pathname}
