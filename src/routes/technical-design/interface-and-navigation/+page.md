@@ -1,8 +1,18 @@
-# Interface and Navigation
+---
+name: Interface and Navigation
+tags:
+    - technical-design
+    - interface-and-navigation
+    - interface
+    - navigation
+    - settings
+    - templates
+    - file-types
+---
 
 *Get comfortable with the basics to double your workflow efficiency!*
 
-![AutoCAD](/td/TD-02-01-AutoCAD.png)
+![](/td/TD-01-04-AutoCAD.jpeg)
 
 Learning brand-new software is a big undertaking. Therefore, the first
 AutoCAD lesson focuses on interface and navigation to ensure a solid
@@ -51,44 +61,9 @@ helpful.
 Watch the demonstration video below to explore the main AutoCAD
 interface elements you will use all the time in this course.
 
-Video: TD-02-01-AutoCADInterface.mp4 
-
-<div style="padding:56.25% 0 0 0;position:relative;"><iframe
-src="https://player.vimeo.com/video/807419362?h=611f2d42da&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
-frameborder="0" allow="autoplay; fullscreen; picture-in-picture"
-allowfullscreen
-style="position:absolute;top:0;left:0;width:100%;height:100%;"
-title="TD-02-01-AutoCADInterface"></iframe></div>
-
-![](/td/Icon_Activity.png)
-
-#### Activity
-
-Knowledge Check: Multiple Hotspot Image on Interface
-
-## Navigation
-
-Navigating new software is often challenging, and it takes trial and
-error over time to become comfortable with it. Talent has little to do
-with mastering a new software; the true masters are often the people who
-have spent the most time practising. Remember this during your learning
-process; it will get easier over time.
-
-![](/td/Icon_Guided_Activity.png)
-
-#### Guided Activity
-
-Watch the demonstration video below to explore the main AutoCAD
-interface elements you will use all the time in this course.
-
 Video: TD-02-01-AutoCADInterface.mp4 
 
-<div style="padding:56.25% 0 0 0;position:relative;"><iframe
-src="https://player.vimeo.com/video/807419362?h=611f2d42da&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
-frameborder="0" allow="autoplay; fullscreen; picture-in-picture"
-allowfullscreen
-style="position:absolute;top:0;left:0;width:100%;height:100%;"
-title="TD-02-01-AutoCADInterface"></iframe></div>
+<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/807419362?h=611f2d42da&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="TD-02-01-AutoCADInterface"></iframe></div>
 
 ![](/td/Icon_Activity.png)
 
@@ -103,65 +78,46 @@ error over time to become comfortable with it. Talent has little to do
 with mastering a new software; the true masters are often the people who
 have spent the most time practising. Remember this during your learning
 process; it will get easier over time.
-
-![](/td/Icon_Guided_Activity.png)
-
-#### Guided Activity
-
-Watch the demonstration video below to explore the main AutoCAD interface elements you will use all the time in this course.
-
-Video: TD-02-01-AutoCADInterface.mp4 
-
-<div style="padding:56.25% 0 0 0;position:relative;"><iframe
-src="https://player.vimeo.com/video/807419362?h=611f2d42da&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
-frameborder="0" allow="autoplay; fullscreen; picture-in-picture"
-allowfullscreen
-style="position:absolute;top:0;left:0;width:100%;height:100%;"
-title="TD-02-01-AutoCADInterface"></iframe></div>
-
-![](/td/Icon_Activity.png)
-
-#### Activity
-
-Knowledge Check: Multiple Hotspot Image on Interface
-
-## Navigation
-
-Navigating new software is often challenging, and it takes trial and error over time to become comfortable with it. Talent has little to do with mastering a new software; the true masters are often the people who have spent the most time practising. Remember this during your learning process; it will get easier over time.
 
 ![](/td/Icon_Guided_Activity.png)
 
 #### Guided Activity 
 
-The demonstration video below provides a detailed overview of the significant navigation tools and methods. Practising these tools and techniques will increase your workflow and save many work hours.
+The demonstration video below provides a detailed overview of the
+significant navigation tools and methods. Practising these tools and
+techniques will increase your workflow and save many work hours.
 
 Video: TD-02-02-AutoCADNavigation.mp4
 
-<div style="padding:56.25% 0 0 0;position:relative;"><iframe
-src="https://player.vimeo.com/video/807419344?h=00e59cf44a&badge=0&autopause=0&player_id=0&app_id=58479/embed"
-allow="autoplay; fullscreen; picture-in-picture" allowfullscreen
-frameborder="0"
-style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe></div>
+<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/807419344?h=00e59cf44a&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="TD-02-02-AutoCADNavigation"></iframe></div>
 
 ### 3D Mouse
 
-You can use a 3D mouse to navigate AutoCAD in 2D. To avoid rotating your drawing in three dimensions, ensure the 3D mouse is set to 2D mode. For information regarding using the recommended 3D mouse in AutoCAD, follow the link:
+You can use a 3D mouse to navigate AutoCAD in 2D. To avoid rotating your
+drawing in three dimensions, ensure the 3D mouse is set to 2D mode. For
+information regarding using the recommended 3D mouse in AutoCAD, follow
+the link:
 
 -   [Using a 3Dconnexion Device to Navigate
     Views](https://knowledge.autodesk.com/support/autocad/learn-explore/caas/CloudHelp/cloudhelp/2016/ENU/AutoCAD-Core/files/GUID-D07D9D0F-F42E-45E5-9F39-0442411675AE-htm.html)
 
-Watch the video below to see a demonstration of how the 3D mouse can be used in conjunction with a regular mouse:
+Watch the video below to see a demonstration of how the 3D mouse can be
+used in conjunction with a regular mouse:
 
 -   [3Dconnexion SpaceMouse and CadMouse in an AutoCAD
     drawing](https://www.youtube.com/watch?v=DWlaOlg_HGQ)
+    
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/DWlaOlg_HGQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-Note that a 3D mouse is not mandatory, and the video demonstrations only utilise a standard mouse.
+Note that a 3D mouse is not mandatory, and the video demonstrations only
+utilise a standard mouse.
 
 ![](/td/Icon_Activity.png)
 
 #### Activity
 
-Open the AutoCAD sample project and practise navigation tools and methods.
+Open the AutoCAD sample project and practise navigation tools and
+methods.\
 Optional: Set up the 3D mouse for AutoCAD if you have one available.
 Skip this point if you want to work with a regular mouse only.
 
@@ -177,12 +133,7 @@ Watch the video demonstration below to learn how to find essential options and s
 
 Video: TD-02-03-AutoCADSettings.mp4
 
-<div style="padding:56.25% 0 0 0;position:relative;"><iframe
-src="https://player.vimeo.com/video/807419332?h=fc8386f472&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
-frameborder="0" allow="autoplay; fullscreen; picture-in-picture"
-allowfullscreen
-style="position:absolute;top:0;left:0;width:100%;height:100%;"
-title="TD-02-03-AutoCADSettings"></iframe></div>
+<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/807419332?h=fc8386f472&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="TD-02-03-AutoCADSettings"></iframe></div>
 
 ![](/td/Icon_Activity.png)
 
@@ -192,55 +143,72 @@ Knowledge Check: Summary on Settings and units
 
 ## Template
 
-As mentioned in the previous chapter, you often need to implement and adjust various settings each time you open a new file. This is not particularly practical. To save time, you can create or utilise finished AutoCAD templates. Templates are AutoCAD files with most custom settings saved; by employing them, you can start working without making many adjustments.
+As mentioned in the previous chapter, you often need to implement and
+adjust various settings each time you open a new file. This is not
+particularly practical. To save time, you can create or utilise finished
+AutoCAD templates. Templates are AutoCAD files with most custom settings
+saved; by employing them, you can start working without making many
+adjustments.
 
-While working on this course, utilising the official Noroff AutoCAD templates is mandatory. There are three templates optimised for their purpose.
+While working on this course, utilising the official Noroff AutoCAD
+templates is mandatory. There are three templates optimised for their
+purpose.
 
 ### Noroff Architectural Template
 
-This template must be applied when working on architectural tasks or projects. Click the link below to download the template.
+This template must be applied when working on architectural tasks or
+projects. Click the link below to download the template.
 
-- Noroff Architectural Template Asset: Acad-Noroff-Architectural.dwt
+-   Noroff Architectural Template Asset: Acad-Noroff-Architectural.dwt
 
 ### Noroff Mechanical Templates
 
-For mechanical tasks and projects, there are two Noroff templates. You will learn more about why we have two templates at a later stage in this course. For now, you are to download both, and until further notice, you are expected to use the template named 'Mechanical Part Template'.
+For mechanical tasks and projects, there are two Noroff templates. You
+will learn more about why we have two templates at a later stage in this
+course. For now, you are to download both, and until further notice, you
+are expected to use the template named 'Mechanical **Part** Template'.
 
-- Noroff Mechanical Part Template Asset: Acad-Noroff-Mechanical-Part.dwt
-- Noroff Mechanical Assembly Template Asset: Acad-Noroff-Mechanical-Assembly.dwt
+-   Noroff Mechanical Part Template Asset:
+    Acad-Noroff-Mechanical-Part.dwt
+
+-   Noroff Mechanical Assembly Template Asset:
+    Acad-Noroff-Mechanical-Assembly.dwt
 
 ![](/td/Icon_Guided_Activity.png)
 
+
 #### Guided Activity
 
-You will learn more about templates at a later stage in this course. For now, you only need to know how to download and install the required templates.
+You will learn more about templates at a later stage in this course. For
+now, you only need to know how to download and install the required
+templates.
 
 Video: TD-02-04-AutoCADTemplates.mp4
 
-<div style="padding:56.25% 0 0 0;position:relative;"><iframe
-src="https://player.vimeo.com/video/807419317?h=eebdf538b5&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
-frameborder="0" allow="autoplay; fullscreen; picture-in-picture"
-allowfullscreen
-style="position:absolute;top:0;left:0;width:100%;height:100%;"
-title="TD-02-04-AutoCADTemplates"></iframe></div>
+<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/807419317?h=eebdf538b5&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="TD-02-04-AutoCADTemplates"></iframe></div>
 
 ![](/td/Icon_Activity.png)
 
 #### Activity
 
-Download and organise all Noroff templates according to the video above and apply the Mechanical Part Template.
+Download and organise all Noroff templates according to the video above
+and apply the Mechanical Part Template.
 
 ## File Types
 
-AutoCAD uses different file formats for various purposes. Recognising and knowing their purpose is an integral part of using the software.
+AutoCAD uses different file formats for various purposes. Recognising
+and knowing their purpose is an integral part of using the software.
 
 ### DWG (Drawing)
 
-The native file format for saving drawings in AutoCAD and the file format you will use most throughout this course.
+The native file format for saving drawings in AutoCAD and the file
+format you will use most throughout this course.
 
 ### DWT (Drawing Template)
 
-The file format for storing drawing templates. As the previous chapter developed page layouts used to make new documents with the same design and initial settings.
+The file format for storing drawing templates. As the previous chapter
+explains, templates are pre-developed page layouts used to make new
+documents with the same design and initial settings.
 
 ### DWF (Design Web Format)
 
@@ -291,12 +259,18 @@ Knowledge check: Summary on File types
 -   Watch the video ["Exploring technical
     drawings"](https://www.linkedin.com/learning/drafting-foundations/exploring-technical-drawings?autoplay=true&resume=false&u=43268076)
     on Linkedin Learning.
+<div style="position:relative;height:0;padding-bottom:56.25%"><iframe width="640" height="360" src="https://www.linkedin.com/learning/embed/drafting-foundations/exploring-technical-drawings?autoplay=false&claim=AQEp3cwFJ2bq6wAAAYcEZqaeG92ElER_OGxUHety94IXV_Wp3lNl2626nWYiTH4f-SezYyKG8wJnIQl58adKyd5IBdvZh5ZxRDxcpTegdGLDHkuThwho9Za7XYTQwchRS8gLyKOLpdQ9n_jjR4J46RJS_qlsLBclH8crynW-IPANRfXU_N7d-2HRXb28SJzUB9OuIo2bTdQKJp6kEdQdWZC654400m8Bwu-wdmZLm9nn-btItkAc9v43hc0EEta94DfudCZ-hqJpeR8FINbkTIQsgmhi7Agmu5Y0nqB3DTjCPCIHfCStmjr0JRiZBgj9sMXV_1tp996djdn-Tlodr9grxW67M2f7Me6xn5ASt13IZ8WW8znV9hzYfoWQmbhfcBuTQbLy49lAJjKBbpzuhJCSEjB4u4FdbuWpMPtU-0Mycdpk7C-x8odOzQmfR2FhcIXdotvp2orDugDL9jRNPGjooPIyJGyjiDJrvqav5tw2wMC1f7Wzs2fK3kK7aVQhgxloYI47MAOa18sxeURkKYT_CO3YAu8DgE35DwKQ6oqbOHEfa0I3mkAPr3O9BOtg8_AUAK3dnIcOLz3l4lxuh4iry9ilC5qcviyoTlBCHs7A6nUshNEsRYM9HwAD-mBy8_oFmEsuUia2RbwkIU5iYSDiJH_vFS4BzB0tgHOV_o7sve-Pf_i8OQMO2iRuTxcVZHazZytWoj5IoURiZlffV_Yl92ts0CVw667sLi39TFqf3esp_gTCrtA7QkKpgL1F6lPM8xUYPVbMJdBkUhaa8yoojkZ8XJJppOJNylaEhaNG36WGtiSM2jIzF-B0mYY99WTV4aA4zs5oYrImqrF7MGt5RlDAHBUZ1to3c13MBWeD5Oaf5nyUedAKzM7B-81Ja6KSJKV3OKUd8CWO8ZXbrc2cpLTB1OUpngO_0-y8KrqkuBxhDp2In7vdnjZENa5uJJDpp4vt0dH60ee6W9Jw1eQrmxt26QY7hs_Tvj13icXJSEsXblu577xKwbcvG4tVH1gPS-Hh6eOyDQ7Y-N8G1dRBboK-phKtIgxOec6uF0fdBnV_YM3iQ1jsfe68OfyuQD2Ik4O-PfUFlVp54aq6NIRO4zK8HJwMKsFafxIRhbbxdhLIcRF7uh-JgXIxC5FBtuCgEwV6ZSrB2D3L1uUuGUP4s6aYuIldI6jt3Tzkr_XM-D1A&lipi=urn%3Ali%3Apage%3Ad_learning_content%3BhI9CceeUTOuZ2F9E8m8C2w%3D%3D&licu" mozallowfullscreen="true" webkitallowfullscreen="true" allowfullscreen="true" frameborder="0" style="position:absolute;width:100%;height:100%;left:0"></iframe></div><p><strong><a href="https://www.linkedin.com/learning/drafting-foundations/exploring-technical-drawings?trk=embed_lil">Exploring technical drawings</a></strong> from <strong><a href="https://www.linkedin.com/learning/drafting-foundations?trk=embed_lil">Drafting Foundations</a></strong> by <strong><a href="https://www.linkedin.com/learning/instructors/paul-f-aubin?trk=embed_lil">Paul F. Aubin</a></strong></p>
 
     -   Inquiry: What are the benefits of creating technical drawings on
         a computer rather than drafting by hand? Write down your
         thoughts and suggestions and share them on the forum for a peer
         discussion.
 
-#### H5P 
+#### H5P in Moodle 
 
-<iframe src="https://lms.noroff.no/mod/hvp/embed.php?id=96820" width="1298" height="442" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+<iframe src="https://lms.noroff.no/mod/hvp/embed.php?id=98759" width="1058" height="311" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+
+
+#### H5P in WordPress
+
+<iframe src="https://wordpress-dscy.onrender.com/wp-admin/admin-ajax.php?action=h5p_embed&id=2" width="936" height="342" frameborder="0" allowfullscreen="allowfullscreen" title="Where to put H5P?"></iframe>

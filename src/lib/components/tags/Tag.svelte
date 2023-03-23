@@ -7,5 +7,8 @@
 <style lang="scss">
   .tag {
     margin: 0;
+    &:before {
+      content: "#";
+    }
   }
 </style>
