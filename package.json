@@ -11,16 +11,19 @@
 		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
 		"test:unit": "vitest",
 		"lint": "prettier --plugin-search-dir . --check . && eslint .",
-		"format": "prettier --plugin-search-dir . --write ."
+		"format": "prettier --plugin-search-dir . --write .",
+		"gh-pages": "npm run build && npx gh-pages -d build"
 	},
 	"bin": {
 		"mollify": "bin/index.ts"
 	},
 	"devDependencies": {
+		"@sveltejs/adapter-static": "^2.0.1",
 		"@types/fs-extra": "^11.0.1",
 		"@types/inquirer": "^9.0.3",
 		"commander": "^10.0.0",
 		"fs-extra": "^11.1.1",
+		"gh-pages": "^5.0.0",
 		"inquirer": "^9.1.5",
 		"slugify": "^1.6.5",
 		"ts-node": "^10.9.1"
