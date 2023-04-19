@@ -10,267 +10,132 @@ tags:
     - file-types
 ---
 
-*Get comfortable with the basics to double your workflow efficiency!*
+### Add your first software to your CV!
 
-![](/td/TD-01-04-AutoCAD.jpeg)
+Throughout the first course in Technical Design, you will become familiar with technical drawing and Computer-Aided Design (CAD). In this lesson, you will receive a brief introduction to technical drawing and Norwegian standards. You will also be introduced to your very first CAD software: AutoCAD. At the end of the lesson, you will learn how to manage and organise AutoCAD files.
 
-Learning brand-new software is a big undertaking. Therefore, the first
-AutoCAD lesson focuses on interface and navigation to ensure a solid
-foundation for expanding your AutoCAD competence.
-
-By the end of this lesson, you will be able to implement suitable
-AutoCAD templates, apply basic settings, understand the interface, and
-navigate the software. In addition, you will learn how to distinguish
-various AutoCAD file types.
-
-## Learning Outcomes
+<!-- There was an icon here -->
+**Learning Outcomes**
 
 On successful completion of this lesson, the learner will be able to:
 
--   Implement AutoCAD templates.
+- Understand what technical drawing is.
+- Download and install AutoCAD.
+- Understand what AutoCAD is used for.
+- Create an organised file management system optimised for sharing and backup.
 
--   Understand the AutoCAD interface.
+## Technical Drawing
 
--   Adjust important AutoCAD settings.
+Technical drawing is a discipline where drawings are made to visually communicate the design, functionality, and fabrication of products and constructions.
 
--   Navigate the AutoCAD software.
+![TD-01-02-TechnicalDrawing02.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/5ae25c62-d01c-4974-a5d0-6d24499e2e92/TD-01-02-TechnicalDrawing02.png)
 
--   Recognise and understand different AutoCAD file types.
+The development and production processes in creating new products and constructions require collaboration and teamwork. Technical drawings are the universal language for communicating the intended design. To ensure that the finished product consists of the intended design, the technical drawings must be unambiguous (not open for interpretation), regardless of whether the product is complex or straightforward.
 
-## AutoCAD Interface
+Several types of technical drawings communicate different design aspects to different users. They are used by drafters, engineers, product designers, architects, contractors, carpenters, electricians, plumbers, mechanics, inventors, etc. Technical drawings are generally used for communication, production, documentation, and visualisation. To ensure drawings are clearly communicated, they follow established standards and norms that you will become deeply familiar with throughout this course.
 
-User Interface (UI) can be described simply as what the user utilises to
-interact with the software. You must interact with the interface to
-open, edit, create, or save a file.
+<!-- There was an icon here -->
+**Guided activity** 
+Watch the video below to explore technical drawings from the architectural and mechanical fields with your teacher.
 
-It is essential to mention that this course leaves several AutoCAD tools
-and possibilities unexplored, and you are by no means expected to know
-every single functionality and tool. The software is vast, and even
-highly experienced AutoCAD users are most likely not familiar with all
-tools and UI elements.
+[****TD-01-01-TechnicalDrawing****](https://vimeo.com/812389606/2ae09879cc)
 
-Becoming comfortable with the AutoCAD interface will happen naturally
-over time as you work with the software. It requires gradual practice.
-However, receiving a general overview in the very beginning is immensely
-helpful.
+****TD-01-01-TechnicalDrawing****
 
-![icon](/td/Icon_Guided_Activity.png)
+**Knowledge check:** Summary - Technical Drawing
 
-#### Guided Activity
+[KC: TD-01-01-TechnicalDrawing](https://wordpress-dscy.onrender.com/wp-admin/admin-ajax.php?action=h5p_embed&id=3)
 
-Watch the demonstration video below to explore the main AutoCAD
-interface elements you will use all the time in this course.
+KC: TD-01-01-TechnicalDrawing
 
-Video: TD-02-01-AutoCADInterface.mp4 
+## Standards
 
-<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/807419362?h=611f2d42da&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="TD-02-01-AutoCADInterface"></iframe></div>
+We find ourselves surrounded by standards in daily life, even though we might not be aware of them. “A standard is a common recipe for how something should be done or implemented. Standardisation is the process from need/idea to a fully developed standard.” (www.standard.no, n.d.) 
 
-![icon](/td/Icon_Activity.png)
+A basic example to consider is languages. Without a recipe for interpreting a language, we would not be able to communicate with each other. Standards in technical drawings serve one primary purpose: To ensure everybody reading the drawing interprets it similarly. Only when the drafter and the producer follow the same ‘recipe’ can the product be made according to the drafter’s specifications. Just as languages, different countries follow different standards. 
 
-#### Activity
+<!-- There was a table icon here -->
+Below is a list of some of the standards used in technical drawings.
 
-Knowledge Check: Multiple Hotspot Image on Interface
+| Abbreviation | Organisation | Country |
+| --- | --- | --- |
+| ANSI | American National Standards Institute | USA |
+| BSI | British Standards Institution | UK |
+| ISO | International Organisation for Standardisation | Europe |
+| DIN | Deutsches Institut für Normung | Germany |
+| NS | Standards Norway* | Norway |
 
-## Navigation
+- The organisation is called Standards Norway, but the standards are called **Norwegian Standards** *(Norsk Standard)*.
 
-Navigating new software is often challenging, and it takes trial and
-error over time to become comfortable with it. Talent has little to do
-with mastering a new software; the true masters are often the people who
-have spent the most time practising. Remember this during your learning
-process; it will get easier over time.
+For a more comprehensive list of the different standardisation organisations, read:
 
-![icon](/td/Icon_Guided_Activity.png)
+<!-- There was a book icon here -->
+********Read********
 
-#### Guided Activity 
+[International Organisation for Standardisation (ISO)](https://en.wikipedia.org/wiki/International_Organization_for_Standardization)
 
-The demonstration video below provides a detailed overview of the
-significant navigation tools and methods. Practising these tools and
-techniques will increase your workflow and save many work hours.
+Noroff is in Norway, so we follow the standards from Standards Norway in the programme. Mechanical and architectural industries are international, and companies operating across national borders must be familiar with some international standardisation organisations. Most importantly, many national standardisations comply with ISO, a global standardisation organisation.
 
-Video: TD-02-02-AutoCADNavigation.mp4
+![TD-01-03-CollaborationTechnicalDrawing.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/e7274af6-b123-4dc3-8b1b-7c61e942447d/TD-01-03-CollaborationTechnicalDrawing.png)
 
-<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/807419344?h=00e59cf44a&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="TD-02-02-AutoCADNavigation"></iframe></div>
+For example, Norway has standards named **NS-ISO**, indicating that the Norwegian standard complies with **ISO**. The recommended mechanical drawings book, ‘*Mechanical and Metal Trades Handbook’*, refers to **DIN-ISO** standards. This is because the book is of German origin and refers to German standards (*DIN*) that comply with **ISO**. The compulsory textbook, ‘*Byggetegning’*, refers to international and Norwegian standards.
 
-### 3D Mouse
+To ensure the technical drawings you create comply with **NS**, the lessons related to creating technical drawings are based on information from the resources [Maskintegning](https://www.nb.no/nbsok/nb/a87b334e6516c57437015d6f0a484359?index=6#0) and [Byggetegning](https://www.nb.no/nbsok/nb/69b6e3af337bfe2a3c4cdf96825c8a8d?lang=no#0), which is part of Technical Design’s reading list.
 
-You can use a 3D mouse to navigate AutoCAD in 2D. To avoid rotating your
-drawing in three dimensions, ensure the 3D mouse is set to 2D mode. For
-information regarding using the recommended 3D mouse in AutoCAD, follow
-the link:
+In addition to Norwegian Standards, the Norwegian governmental construction and property company, Statsbygg, develops and maintains guidelines and manuals for construction drawings, CAD and BIM that are widely used in the Norwegian building industry.
 
--   [Using a 3Dconnexion Device to Navigate
-    Views](https://knowledge.autodesk.com/support/autocad/learn-explore/caas/CloudHelp/cloudhelp/2016/ENU/AutoCAD-Core/files/GUID-D07D9D0F-F42E-45E5-9F39-0442411675AE-htm.html)
+<!-- There was a book icon here -->
+**Read**
 
-Watch the video below to see a demonstration of how the 3D mouse can be
-used in conjunction with a regular mouse:
+Read chapter 7, *‘[Standardisering](https://www.nb.no/items/a87b334e6516c57437015d6f0a484359?searchText=standardisering&page=35#0)’* (p. 35-37), in *‘[Maskintegning](https://www.nb.no/items/a87b334e6516c57437015d6f0a484359#0)’*.
 
--   [3Dconnexion SpaceMouse and CadMouse in an AutoCAD
-    drawing](https://www.youtube.com/watch?v=DWlaOlg_HGQ)
-    
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/DWlaOlg_HGQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+## AutoCAD
 
-Note that a 3D mouse is not mandatory, and the video demonstrations only
-utilise a standard mouse.
+As an introduction to the world of technical drawing, you will learn your first computer-aided design (CAD) software: AutoCAD!
 
-![icon](/td/Icon_Activity.png)
+![TD-01-04-AutoCAD.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a830315e-f1ef-423a-9f63-ebbc559af7a7/TD-01-04-AutoCAD.png)
 
-#### Activity
+### AutoCAD in the industry
 
-Open the AutoCAD sample project and practise navigation tools and
-methods.\
-Optional: Set up the 3D mouse for AutoCAD if you have one available.
-Skip this point if you want to work with a regular mouse only.
+AutoCAD is a comprehensive software used for 2D drawings and 3D modelling, but it is mainly known for its 2D capabilities. It has long been regarded as **the industry standard for technical drawings in 2D.
 
-### Settings
+With the introduction of 3D modelling, AutoCAD took a step back as the industry standard. Examples of modern 3D software used for building and construction modelling include Revit, ArchiCAD, Tekla, and DDS. Software like Inventor, SolidWorks, PTC Creo, and Catia are commonly used for product design.
 
-When a new AutoCAD file is opened, you often need to adjust various settings to optimise the file. 
+Many companies currently use AutoCAD as secondary software in addition to dedicated 3D software. Due to its former status as the industry standard, you will most likely have to relate to it in some form regardless of the industry sector you choose to work in after graduating.
 
-![icon](/td/Icon_Guided_Activity.png)
+Within the architectural and mechanical industry, countless designs with AutoCAD require regular updates and re-design. This means that even though you might work in a company primarily focusing on other software, you will sometimes work or collaborate with people using AutoCAD.
 
-#### Guided Activity
+This module provides knowledge of AutoCAD’s functionality and a foundational understanding of technical documents. You will also learn essential skills to produce your very own technical drawings in AutoCAD, preparing you for the next level: Modelling and documentation in dedicated 3D software. It is necessary to mention that this education strongly focuses on 3D modelling. However, getting comfortable with 2D before adding the third dimension is wise to ensure a proper understanding of the foundations.
 
-Watch the video demonstration below to learn how to find essential options and settings. 
+<!-- There was a basketball icon here -->
+**Activity**
+Students who have not yet downloaded and installed AutoCAD are asked to do so now. Follow the instructions below to acquire AutoCAD:
 
-Video: TD-02-03-AutoCADSettings.mp4
+**[Autodesk Student Programme](https://lms.noroff.no/mod/page/view.php?id=46413)**
 
-<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/807419332?h=fc8386f472&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="TD-02-03-AutoCADSettings"></iframe></div>
+## AutoCAD file management
 
-![icon](/td/Icon_Activity.png)
+You should already be familiar with personal file management, backup, and OneDrive. If not, we recommend you read up on it now.
 
-#### Activity
+<!-- There was a camera icon here -->
+**Guided Activity** 
+In the industry, offices will have an internal system for naming, sorting, storing, and backing up AutoCAD files. Watch the video demonstration below to view our recommended file management system, tailored to fit the Technical Drawing module.
 
-Knowledge Check: Summary on Settings and units
+[TD-01-02-AutoCADFileManagement](https://vimeo.com/807418599/53ffe97828)
 
-## Template
+<!-- There was a basketball icon here -->
+**Activity** 
+Set up your personal file management system for AutoCAD files, and ensure you have a proper backup system.
 
-As mentioned in the previous chapter, you often need to implement and
-adjust various settings each time you open a new file. This is not
-particularly practical. To save time, you can create or utilise finished
-AutoCAD templates. Templates are AutoCAD files with most custom settings
-saved; by employing them, you can start working without making many
-adjustments.
+<!-- There was an apple icon here -->
+**Daily Task:** **DT-01-01**
 
-While working on this course, utilising the official Noroff AutoCAD
-templates is mandatory. There are three templates optimised for their
-purpose.
+- Bookmark the following LinkedIn Learning course:
+    - [AutoCAD Essential Training](https://www.linkedin.com/learning/autocad-2022-essential-training/the-essentials-of-autocad?autoplay=true&u=43268076)
+    - This LinkedIn Learning course is recommended for self-study.
+- Get familiar with your books from the reading list; explore the Table of contents and introductions.
 
-### Noroff Architectural Template
+## References
 
-This template must be applied when working on architectural tasks or
-projects. Click the link below to download the template.
-
--   Noroff Architectural Template Asset: Acad-Noroff-Architectural.dwt
-
-### Noroff Mechanical Templates
-
-For mechanical tasks and projects, there are two Noroff templates. You
-will learn more about why we have two templates at a later stage in this
-course. For now, you are to download both, and until further notice, you
-are expected to use the template named 'Mechanical **Part** Template'.
-
--   Noroff Mechanical Part Template Asset:
-    Acad-Noroff-Mechanical-Part.dwt
-
--   Noroff Mechanical Assembly Template Asset:
-    Acad-Noroff-Mechanical-Assembly.dwt
-
-![icon](/td/Icon_Guided_Activity.png)
-
-
-#### Guided Activity
-
-You will learn more about templates at a later stage in this course. For
-now, you only need to know how to download and install the required
-templates.
-
-Video: TD-02-04-AutoCADTemplates.mp4
-
-<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/807419317?h=eebdf538b5&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="TD-02-04-AutoCADTemplates"></iframe></div>
-
-![icon](/td/Icon_Activity.png)
-
-#### Activity
-
-Download and organise all Noroff templates according to the video above
-and apply the Mechanical Part Template.
-
-## File Types
-
-AutoCAD uses different file formats for various purposes. Recognising
-and knowing their purpose is an integral part of using the software.
-
-### DWG (Drawing)
-
-The native file format for saving drawings in AutoCAD and the file
-format you will use most throughout this course.
-
-### DWT (Drawing Template)
-
-The file format for storing drawing templates. As the previous chapter
-explains, templates are pre-developed page layouts used to make new
-documents with the same design and initial settings.
-
-### DWF (Design Web Format)
-
-DWF is a highly compressed version of a CAD file useful for viewing,
-printing, and transmitting a CAD drawing or model. The recipient can
-view the content of a DWF file by downloading free software from
-Autodesk, such as Design Review. This is also the software used
-throughout your studies at Technical Design and is something we will
-look into in later lessons. To be prepared, you can follow the link
-below to download it now.
-
--   Autodesk Design Review
-
-### DWL/DWL2 (Drawing Lock)
-
-DWL/DWL2 files stores lock information when a drawing is currently open
-in AutoCAD. DWL files prevent simultaneous access to a drawing, which
-may cause the file to become corrupted.
-
-### BAK (Backup) and SV\$ (Backup)
-
-BAK and SV\$ are backup files created by AutoCAD. They act as a backup
-in case the original DWG file gets corrupted. They can be 'converted' to
-a DWG file simply by renaming the file extension from '.bak' or '.sv\$'
-to '.dwg'. BAK files are manual backups created using the Save command,
-while SV\$ are created automatically by the software. Sv\$ files are
-stored in an active folder or the Windows temp folder and are
-automatically deleted when the software successfully shuts down.
-
-When submitting assignments, DWL/DWL2 and BAK must not be included.
-
-![icon](/td/Icon_Activity.png)
-
-#### Activity
-
-Knowledge check: Summary on File types
-
-![icon](/td/Icon_Task.png)
-
-### Daily Task
-
-### DT-01-02
-
--   Open the Sample project provided in this lesson.
-
--   Explore the AutoCAD interface and practice navigating.
-
--   Watch the video ["Exploring technical
-    drawings"](https://www.linkedin.com/learning/drafting-foundations/exploring-technical-drawings?autoplay=true&resume=false&u=43268076)
-    on Linkedin Learning.
-<div style="position:relative;height:0;padding-bottom:56.25%"><iframe width="640" height="360" src="https://www.linkedin.com/learning/embed/drafting-foundations/exploring-technical-drawings?autoplay=false&claim=AQEp3cwFJ2bq6wAAAYcEZqaeG92ElER_OGxUHety94IXV_Wp3lNl2626nWYiTH4f-SezYyKG8wJnIQl58adKyd5IBdvZh5ZxRDxcpTegdGLDHkuThwho9Za7XYTQwchRS8gLyKOLpdQ9n_jjR4J46RJS_qlsLBclH8crynW-IPANRfXU_N7d-2HRXb28SJzUB9OuIo2bTdQKJp6kEdQdWZC654400m8Bwu-wdmZLm9nn-btItkAc9v43hc0EEta94DfudCZ-hqJpeR8FINbkTIQsgmhi7Agmu5Y0nqB3DTjCPCIHfCStmjr0JRiZBgj9sMXV_1tp996djdn-Tlodr9grxW67M2f7Me6xn5ASt13IZ8WW8znV9hzYfoWQmbhfcBuTQbLy49lAJjKBbpzuhJCSEjB4u4FdbuWpMPtU-0Mycdpk7C-x8odOzQmfR2FhcIXdotvp2orDugDL9jRNPGjooPIyJGyjiDJrvqav5tw2wMC1f7Wzs2fK3kK7aVQhgxloYI47MAOa18sxeURkKYT_CO3YAu8DgE35DwKQ6oqbOHEfa0I3mkAPr3O9BOtg8_AUAK3dnIcOLz3l4lxuh4iry9ilC5qcviyoTlBCHs7A6nUshNEsRYM9HwAD-mBy8_oFmEsuUia2RbwkIU5iYSDiJH_vFS4BzB0tgHOV_o7sve-Pf_i8OQMO2iRuTxcVZHazZytWoj5IoURiZlffV_Yl92ts0CVw667sLi39TFqf3esp_gTCrtA7QkKpgL1F6lPM8xUYPVbMJdBkUhaa8yoojkZ8XJJppOJNylaEhaNG36WGtiSM2jIzF-B0mYY99WTV4aA4zs5oYrImqrF7MGt5RlDAHBUZ1to3c13MBWeD5Oaf5nyUedAKzM7B-81Ja6KSJKV3OKUd8CWO8ZXbrc2cpLTB1OUpngO_0-y8KrqkuBxhDp2In7vdnjZENa5uJJDpp4vt0dH60ee6W9Jw1eQrmxt26QY7hs_Tvj13icXJSEsXblu577xKwbcvG4tVH1gPS-Hh6eOyDQ7Y-N8G1dRBboK-phKtIgxOec6uF0fdBnV_YM3iQ1jsfe68OfyuQD2Ik4O-PfUFlVp54aq6NIRO4zK8HJwMKsFafxIRhbbxdhLIcRF7uh-JgXIxC5FBtuCgEwV6ZSrB2D3L1uUuGUP4s6aYuIldI6jt3Tzkr_XM-D1A&lipi=urn%3Ali%3Apage%3Ad_learning_content%3BhI9CceeUTOuZ2F9E8m8C2w%3D%3D&licu" mozallowfullscreen="true" webkitallowfullscreen="true" allowfullscreen="true" frameborder="0" style="position:absolute;width:100%;height:100%;left:0"></iframe></div><p><strong><a href="https://www.linkedin.com/learning/drafting-foundations/exploring-technical-drawings?trk=embed_lil">Exploring technical drawings</a></strong> from <strong><a href="https://www.linkedin.com/learning/drafting-foundations?trk=embed_lil">Drafting Foundations</a></strong> by <strong><a href="https://www.linkedin.com/learning/instructors/paul-f-aubin?trk=embed_lil">Paul F. Aubin</a></strong></p>
-
-    -   Inquiry: What are the benefits of creating technical drawings on
-        a computer rather than drafting by hand? Write down your
-        thoughts and suggestions and share them on the forum for a peer
-        discussion.
-
-#### H5P in Moodle 
-
-<iframe src="https://lms.noroff.no/mod/hvp/embed.php?id=98759" width="1058" height="311" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
-
-
-#### H5P in WordPress
-
-<iframe src="https://wordpress-dscy.onrender.com/wp-admin/admin-ajax.php?action=h5p_embed&id=2" width="936" height="342" frameborder="0" allowfullscreen="allowfullscreen" title="Where to put H5P?"></iframe>
+- Hellvik Hus. (n.d.). Karma. [online] Available at: https://hellvikhus.no/ferdighus/funkis/funkishus-karma/ [Accessed 29 Mar. 2023].
+- standard.no. (n.d.). Standardisering | standard.no. [online] Available at: https://www.standard.no/standardisering/ [Accessed 29 March 2023].
