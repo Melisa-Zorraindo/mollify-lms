@@ -22,6 +22,7 @@ export async function* recursivelyFindMarkdown(root: string, ignore: string[] = 
     }
   }
 }
+
 function shouldIgnoreFile(fileName: string, ignore: string[] = []): boolean {
   return fileName.startsWith('+') || ignore.includes(fileName.toLowerCase());
 }
